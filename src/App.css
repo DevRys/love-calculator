@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.text-input {
+  height: 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  color:rgba(155, 0, 59, 0.595);
+  background-image: radial-gradient(circle at 48.41% 53.42%, #dff0db 0, #dbf0dd 6.25%, #d8f1e0 12.5%, #d5f1e3 18.75%, #d3f2e6 25%, #d1f2e9 31.25%, #cff2ec 37.5%, #cef2ef 43.75%, #cdf2f2 50%, #cdf2f5 56.25%, #cdf1f8 62.5%, #cef1fa 68.75%, #cff0fc 75%, #d1f0fe 81.25%, #d3efff 87.5%, #d6eeff 93.75%, #d9edff 100%);
+}
+
+.text-input::placeholder { color:rgb(123, 0, 49) }
+
+.btn {
+  margin-top: 20px;
+}
